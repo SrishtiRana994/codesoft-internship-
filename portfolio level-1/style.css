@@ -1,0 +1,187 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(136, 153, 242);
+    width: 10vw;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.namelogo{
+font-family: serif;
+}
+.sidebar nav{
+    padding: 30px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    padding-top: 33px ;
+    
+    font-size: 15px;
+}
+.sidebar nav li a{
+     text-decoration:none ;
+}
+nav li a:hover{
+    border: 3px solid rgb(69, 13, 234);
+    border-radius: 7px;
+    padding:5px;
+    background-color: aquamarine;
+    
+
+}
+
+
+
+.maincontent{
+    background-color: rgb(145, 211, 240);
+    width:90vw;
+    height: 100vh;
+}
+
+.infocontent{
+    /*background-color: rgb(226, 43, 159);*/
+    height:66vh ;
+    width: 80vw;
+    margin: auto;
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.devInto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.devpic img{
+    height: 481px;
+    width:267px;
+    border: none;
+    border-radius: 4px;
+    
+}
+.hello{
+    font-size: 60px;
+
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.about{
+    font-size: 40px;
+
+}
+.skill{
+    font-size: 30px;
+
+}
+.buttons{
+
+    margin-top: 18px;
+
+
+}
+.btn{
+    padding: 10px;
+    border-radius: 24px;
+    color: aliceblue;
+    background-color:darkgreen;
+    margin: 0 5px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    color:darkgreen;
+    background-color: aliceblue;
+}
+.btn_sbmit{
+    width:200px;
+    padding: 10px;
+    border-radius: 24px;
+    color: aliceblue;
+    background-color:darkgreen;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.btn_sbmit:hover{
+    color:darkgreen;
+    background-color: rgb(16, 142, 128);
+}
+.container{
+   display: flex;
+}
+.contactMe form{
+    padding: 0 34px;
+
+
+}
+
+.contactMe h1{
+    padding-top: 120px;
+    padding:34px;
+    text-align: center;
+} 
+.contactMe form div{
+
+    padding: 15px 0px;
+    
+}
+.contactMe form #emailHelp{
+    color: rgb(6, 63, 63);
+}
+.contactMe .Name{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactMe #InputName{
+    width:300px;
+    height:22px;
+    padding: 3px;
+    border-radius: 4px;
+}
+.contactMe .email{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactMe #InputEmail1{
+    width:300px;
+    height:22px;
+    padding: 3px;
+    border-radius: 4px;
+}
+.contactMe .Enquiry{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactMe #InputEnquiry{
+    width:300px;
+    height:22px;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.contactMe .Phone{
+    display: flex;
+    flex-direction: column;
+}
+.contactMe .inputPhone{
+    width:300px;
+    height:22px;
+    padding: 3px;
+    border-radius: 4px;
+}
+
